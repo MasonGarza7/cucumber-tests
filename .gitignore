@@ -1,0 +1,51 @@
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.iml
+
+# ===== Java / Maven =====
+target/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Maven wrapper (keep wrapper files if you use them)
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===== Test outputs / artifacts =====
+results/
+test-output/
+surefire-reports/
+failsafe-reports/
+cucumber-reports/
+*.png
+*.jpg
+*.jpeg
+
+# If you intentionally keep screenshots only under results/, the above image ignores are optional.
+# Remove the image lines if you want screenshots committed.
+
+# ===== Temporary / runtime =====
+temp/
+tmp/
+*.tmp
+*.temp
+
+# ===== Selenium =====
+*.crx
+*.exe.stackdump
+
+# ===== Env / secrets =====
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.pem
